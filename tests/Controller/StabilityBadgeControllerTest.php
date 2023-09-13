@@ -80,7 +80,7 @@ final class StabilityBadgeControllerTest extends AbstractApiTestCase
             'message' => $state,
             'color' => $expectedColor,
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(

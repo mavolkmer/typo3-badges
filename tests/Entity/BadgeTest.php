@@ -94,7 +94,7 @@ final class BadgeTest extends TestCase
     public function forTypo3VersionsReturnsBadgeForTypo3Versions(array $typo3Versions, string $expected): void
     {
         $expected = new Badge(
-            'typo3',
+            'TYPO3',
             $expected,
             Color::Orange,
             false,
@@ -124,7 +124,7 @@ final class BadgeTest extends TestCase
     public function forErrorReturnsBadgeOnError(): void
     {
         $expected = new Badge(
-            'typo3',
+            'TYPO3',
             'error',
             Color::Red,
             true,
@@ -204,8 +204,8 @@ final class BadgeTest extends TestCase
      */
     public static function forTypo3VersionsReturnsBadgeForTypo3VersionsDataProvider(): Generator
     {
-        yield 'one version' => [[11], '11'];
-        yield 'two versions' => [[10, 11], '10 & 11'];
-        yield 'three versions' => [[9, 10, 11], '9, 10 & 11'];
+        yield 'one version' => [[12], '12'];
+        yield 'two versions' => [[11, 12], '11 & 12'];
+        yield 'three versions' => [[10, 11, 12], '10, 11 & 12'];
     }
 }

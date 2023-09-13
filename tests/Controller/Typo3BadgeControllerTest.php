@@ -66,18 +66,18 @@ final class Typo3BadgeControllerTest extends AbstractApiTestCase
         $this->mockResponses[] = new MockResponse(json_encode([
             [
                 'current_version' => [
-                    'typo3_versions' => [10, 11],
+                    'typo3_versions' => [11, 12],
                 ],
             ],
         ], JSON_THROW_ON_ERROR));
 
         $expected = new JsonResponse([
             'schemaVersion' => 1,
-            'label' => 'typo3',
-            'message' => '10 & 11',
+            'label' => 'TYPO3',
+            'message' => '11 & 12',
             'color' => 'orange',
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(

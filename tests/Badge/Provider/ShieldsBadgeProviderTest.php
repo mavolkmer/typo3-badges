@@ -63,7 +63,7 @@ final class ShieldsBadgeProviderTest extends KernelTestCase
             'message' => 'baz',
             'color' => 'orange',
             'isError' => true,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertEquals($expected, $this->subject->createResponse($badge));

@@ -68,7 +68,7 @@ final readonly class Badge
     public static function static(): self
     {
         return new self(
-            'typo3',
+            'TYPO3',
             'inspiring people to share',
             Color::Orange,
         );
@@ -125,7 +125,7 @@ final readonly class Badge
         ]));
 
         return new self(
-            'typo3',
+            'TYPO3',
             $message,
             self::COLOR_MAP['typo3'],
         );
@@ -146,7 +146,7 @@ final readonly class Badge
     public static function forVerification(bool $verified): self
     {
         return new self(
-            'typo3',
+            'TYPO3',
             $verified ? 'verified' : 'not verified',
             $verified ? self::COLOR_MAP['verified'] : self::COLOR_MAP['not_verified'],
         );
@@ -155,7 +155,7 @@ final readonly class Badge
     public static function forError(): self
     {
         return new self(
-            'typo3',
+            'TYPO3',
             'error',
             self::COLOR_MAP['error'],
             true,

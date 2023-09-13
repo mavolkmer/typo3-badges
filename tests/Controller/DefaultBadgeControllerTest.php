@@ -63,17 +63,17 @@ final class DefaultBadgeControllerTest extends WebTestCase
     public static function controllerReturnsTypo3BadgeDataProvider(): Generator
     {
         $badgenResponse = [
-            'subject' => 'typo3',
+            'subject' => 'TYPO3',
             'status' => 'inspiring people to share',
             'color' => 'orange',
         ];
         $shieldsResponse = [
             'schemaVersion' => 1,
-            'label' => 'typo3',
+            'label' => 'TYPO3',
             'message' => 'inspiring people to share',
             'color' => 'orange',
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ];
 
         yield 'no explicit provider (fall back to default)' => ['/badge/typo3', $shieldsResponse];

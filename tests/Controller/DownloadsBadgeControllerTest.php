@@ -75,7 +75,7 @@ final class DownloadsBadgeControllerTest extends AbstractApiTestCase
             'message' => '123',
             'color' => 'blue',
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(

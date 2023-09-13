@@ -208,7 +208,7 @@ components:
       properties:
         subject:
           type: string
-          example: typo3
+          example: TYPO3
         status:
           type: string
           example: inspiring people to share
@@ -229,7 +229,7 @@ components:
           example: 1
         label:
           type: string
-          example: typo3
+          example: TYPO3
         message:
           type: string
           example: inspiring people to share
@@ -241,7 +241,7 @@ components:
           default: false
         namedLogo:
           type: string
-          default: typo3
+          default: TYPO3
     Error:
       type: object
       description: An error object to be parsed by a badge provider.

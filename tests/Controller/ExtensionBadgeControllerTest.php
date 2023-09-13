@@ -75,7 +75,7 @@ final class ExtensionBadgeControllerTest extends AbstractApiTestCase
             'message' => 'foo',
             'color' => 'orange',
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(

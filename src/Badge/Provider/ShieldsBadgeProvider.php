@@ -72,7 +72,7 @@ final class ShieldsBadgeProvider implements BadgeProvider
             'message' => $badge->getMessage(),
             'color' => $this->getColorValue($badge->getColor()),
             'isError' => $badge->isError(),
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
     }
 

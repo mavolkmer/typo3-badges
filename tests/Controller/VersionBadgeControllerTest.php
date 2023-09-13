@@ -77,7 +77,7 @@ final class VersionBadgeControllerTest extends AbstractApiTestCase
             'message' => '1.0.0',
             'color' => 'orange',
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(

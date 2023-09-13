@@ -40,11 +40,11 @@ final class ErrorControllerTest extends WebTestCase
     {
         $expected = [
             'schemaVersion' => 1,
-            'label' => 'typo3',
+            'label' => 'TYPO3',
             'message' => 'error',
             'color' => 'red',
             'isError' => true,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ];
 
         $client = self::createClient();

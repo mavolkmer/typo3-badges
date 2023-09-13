@@ -77,11 +77,11 @@ final class VerifiedBadgeControllerTest extends AbstractApiTestCase
 
         $expected = new JsonResponse([
             'schemaVersion' => 1,
-            'label' => 'typo3',
+            'label' => 'TYPO3',
             'message' => $expectedMessage,
             'color' => $expectedColor,
             'isError' => false,
-            'namedLogo' => 'typo3',
+            'namedLogo' => 'TYPO3',
         ]);
 
         self::assertSame(
